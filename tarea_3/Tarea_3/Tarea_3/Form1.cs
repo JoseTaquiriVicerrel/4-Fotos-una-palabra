@@ -49,9 +49,9 @@ namespace Tarea_3
        
         int Nivel = 0;
         //Matriz de imagenes por categoria y nivel
-        //Paises iria en categoia 0,0 hasta 39,0
-        //Animales iria en categoia 0,1 hasta 39,1
-        //Ciudades iria en categoia 0,2 hasta 39,2
+        //Paises desde 0,0 hasta 39,0
+        //Animales desde  0,1 hasta 39,1
+        //Ciudades desde 0,2 hasta 39,2
         String[] ABECEDARIO = {"B","C","D","F","G","H","J","K","L","M","N","Ñ","P","Q","R","S","T","V","W","X","Y","Z" };
         String[] vocales = { "A", "E", "I", "O", "U" , "A", "E", "I", "O", "U"};
         String[,] Imagen_Nivel={ { "peru1.jpg", "peru2.jpg", "peru3.jpg", "peru4.jpg",
@@ -282,7 +282,7 @@ namespace Tarea_3
                 }
             }
             return a;
-        }//para quitar las letras iguales delos labels
+        }//para quitar las letras iguales de los labels
         public Boolean verificar(bool ayuda,String letra)
         {
             Boolean a = false;
