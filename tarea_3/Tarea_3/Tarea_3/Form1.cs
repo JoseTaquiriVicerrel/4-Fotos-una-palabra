@@ -379,7 +379,7 @@ namespace Tarea_3
         }
         public int cat = 0;// categoria de juego Animales/cosas /deportes
         int contador=0;//contador de efecto **Letras rojas/negras**
-        int monto = 1000;//monto de inicio
+        int monto = 1000; //monto de inicio
         private void Form1_Load(object sender, EventArgs e)
         {
             label7.Text = "" + monto;
