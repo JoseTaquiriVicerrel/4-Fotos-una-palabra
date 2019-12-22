@@ -116,6 +116,7 @@ namespace Tarea_3
                     Nivel++;
                     monto += 60;
                     label7.Text = "" + monto;
+                    lblNivel.Text = "" + (Nivel+1);
                     switch (Nivel)
                     {
                         case 3:
@@ -240,7 +241,7 @@ namespace Tarea_3
             }
             else if (monto < 40)
             {
-                MessageBox.Show(this, "no tiene saldo suficiente");
+                MessageBox.Show(this, "Monedas insuficientes");
             }
             return b;
         }
@@ -265,7 +266,7 @@ namespace Tarea_3
             }
             else
             {
-                MessageBox.Show(this,"saldo Insuficiente");
+                MessageBox.Show(this,"Monedas insuficientes");
             }
             return b;
         } //lapiz
@@ -417,6 +418,11 @@ namespace Tarea_3
             {
                 button.Visible = false;
             }
+        }
+
+        private void PictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
     }
  }
